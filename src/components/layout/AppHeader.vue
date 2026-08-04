@@ -6,33 +6,35 @@
       </router-link>
     </div>
 
-    <nav class="menu">
-      <router-link to="/" class="item-menu">
-        Início
-      </router-link>
+<nav class="menu">
+  <router-link to="/" class="item-menu">
+    Início
+  </router-link>
 
-      <a href="#" class="item-menu">
-        Catálogo
-      </a>
+  <a href="#" class="item-menu">
+    Catálogo
+  </a>
 
-      <a href="#" class="item-menu">
-        Sobre
-      </a>
-    </nav>
+  <a href="#" class="item-menu">
+    Sobre
+  </a>
 
-    <div class="acoes">
-      <button class="botao-login">
-        Login
-      </button>
+  <router-link to="/carrinho" class="item-menu">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Carrinho
+  </router-link>
+</nav>
 
-      <router-link to="/carrinho" class="icone">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </router-link>
+<div class="acoes">
+  <button class="botao-login">
+    Login
+  </button>
 
-      <div class="icone">
-        <i class="fa-regular fa-user"></i>
-      </div>
-    </div>
+  <div class="icone">
+    <i class="fa-regular fa-user"></i>
+  </div>
+</div>
+
   </header>
 </template>
 

@@ -1132,3 +1132,21 @@ html{
 }
 
 }
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-menu{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+.item-menu:hover{
+    color: #2e9f58;
+}
