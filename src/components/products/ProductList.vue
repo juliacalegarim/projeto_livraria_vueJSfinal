@@ -38,13 +38,4 @@ export default {
 
 <style scoped>
 
-.lista-livros{
-    max-width:1200px;
-    margin:50px auto;
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
-    gap:30px;
-    padding:0 20px;
-}
-
 </style>

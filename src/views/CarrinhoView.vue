@@ -82,16 +82,4 @@ export default {
 
 <style scoped>
 
-.pagina-carrinho{
-    max-width:1200px;
-    margin:40px auto;
-    padding:20px;
-}
-
-.titulo-pagina{
-    font-size:38px;
-    margin-bottom:30px;
-    color:#222;
-}
-
 </style>

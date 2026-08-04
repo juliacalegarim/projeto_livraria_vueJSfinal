@@ -73,41 +73,4 @@ export default {
 </script>
 
 <style scoped>
-
-.painel-carrinho{
-    max-width:1200px;
-    margin:40px auto;
-    display:flex;
-    gap:40px;
-    align-items:flex-start;
-}
-
-.lista-carrinho{
-    flex:1;
-    background:white;
-    border-radius:12px;
-    box-shadow:0 2px 10px rgba(0,0,0,.08);
-    padding:25px;
-}
-
-.titulo{
-    font-size:30px;
-    margin-bottom:25px;
-}
-
-.carrinho-vazio{
-    text-align:center;
-    color:#666;
-    padding:50px 0;
-    font-size:18px;
-}
-
-@media(max-width:900px){
-
-.painel-carrinho{
-    flex-direction:column;
-}
-
-}
-
 </style>
