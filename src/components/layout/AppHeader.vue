@@ -2,7 +2,6 @@
   <header class="cabecalho">
     <div class="logo">
       <router-link to="/" class="logo-link">
-        <img src="/logo.png" alt="IFbooks" class="imagem-logo">
         <span class="texto-logo">IFbooks</span>
       </router-link>
     </div>

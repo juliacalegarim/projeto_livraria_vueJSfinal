@@ -3,7 +3,6 @@
     <div class="conteudo-rodape">
 
       <div class="logo-rodape">
-        <img src="/logo.png" alt="IFbooks" class="imagem-logo">
         <h2>IFbooks</h2>
       </div>
 
